@@ -1,5 +1,6 @@
 # Example
 
+![画面収録-2021-07-22-2 01 05](https://user-images.githubusercontent.com/37901879/126531762-9377a8f9-8474-46ae-8d0e-579f6e17667b.gif)
 
 
 ### Server
