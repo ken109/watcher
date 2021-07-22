@@ -11,7 +11,7 @@ func consumer(data interface{}) {
 }
 
 func main() {
-	go watcher.Watch(":9090", consumer)
+	go watcher.Watch("localhost:9090", consumer)
 
 	select {}
 }

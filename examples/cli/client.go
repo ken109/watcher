@@ -6,13 +6,12 @@ import (
 	"github.com/ken109/watcher"
 )
 
+func handler(data interface{}) {
+	fmt.Println(data)
+}
+
 func main() {
-	go watcher.Watch(
-		":9090",
-		func(data interface{}) {
-			fmt.Println(data)
-		},
-	)
+	go watcher.Watch("localhost:9090", handler)
 
 	select {}
 }
